@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* body {
+  font-family: "Poppins", sans-serif;
+  background-color: #E8ECF1;
+}
+* body .city {
+  font-size: 16px;
+  font-weight: 600;
+}
+* body main {
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+* body main .left-container {
+  background-color: #fff;
+  width: 40rem;
+  height: 720px;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+* body main .rigth-container {
+  width: 18rem;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+* body main .rigth-container .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 330px;
+  border-radius: 20px;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+* body main .rigth-container .meteo-container .temp {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+* body main .rigth-container .meteo-container .weather-img img {
+  width: 90px;
+}
+* body main .rigth-container .time-container {
+  justify-content: center;
+}
+* body main .rigth-container .time-container .time {
+  width: auto;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+* body main .rigth-container .time-container .date {
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
